@@ -1,0 +1,141 @@
+body{
+    font-family: Segoe UI;
+    font-size: 18px;
+}
+ul li{
+    list-style: none;
+}
+#wrapper{
+    width: 1050px;
+    margin: 0px auto;
+}
+#logo{
+    float: left;
+    height: 60px;
+}
+#logo img{
+    height: 100%;
+    width: auto;
+}
+ul#mainmenu{
+     float: right;
+}
+ul#mainmenu li{
+    float: left;
+}
+ul#mainmenu li a{
+    padding: 12px 30px;
+    text-decoration: none;
+    color: grey;
+}
+#anh{
+    width: 1050px;
+    margin: 0px auto;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+#ngang{
+    width: 1050px;
+    margin: 0px auto;
+}
+#chu{
+    width: 1050px;
+    margin: 0px auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: grey;
+}
+#polo{
+    width: 1050px;
+    margin: 0px auto;
+}
+#yune{
+    width: 1050px;
+    margin: 0px auto;
+    display: flex;
+    padding: 10px;
+}
+#yune h5{
+    color: grey;
+}
+#yune h2{
+    color: rgb(91, 93, 95);
+}
+#ra{
+    width: 1050px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: right;
+}
+#ra span a{
+    text-decoration: none;
+    font-size: 15px;
+    color: grey;
+}
+#ra i{
+    padding-top: 6px;
+    padding-left: 5px;
+    color: grey;
+}
+#yone{
+    width: 1050px;
+    margin: 0px auto;
+    padding: 15px;
+}
+#content{
+    width: 1050px;
+    background-color: whitesmoke;
+    margin: 0px auto;
+    padding: 20px;
+}
+ul#menu{
+    width: 1050px;
+    margin: 0px auto;
+    display: flex;
+}
+ul#menu li img{
+    padding: 12px 40px;
+}
+#yasuo{
+    width: 100%;
+    padding: auto;
+    background-color: rgb(179, 172, 172);
+}
+ul#bo{
+    width: 1050px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#bo img{ 
+    margin: 17px 5px;
+}
+@media screen and (max-width:800px)  {
+    #wrapper #header {
+        width: 100%;
+        display: inline-block;
+    }
+    #wrapper #header #mainmenu {
+        width: 100%;
+    }
+    #ngang {
+        width: 100%;
+        display: inline-block;
+    }
+    #chu {
+        width: 100%;
+        display: inline-block;
+    }
+    #yune {
+        width: 100%;
+        display: inline-block;
+    }
+    #ra {
+        width: 100%;
+        display: inline-block;
+    }
+    #yasuo {
+        width: 100%;
+        display: inline-block;
+    }
+}
